@@ -15,7 +15,8 @@ data_file = "static/data/quake_cleaned.geojson"
 app = Flask(__name__)
 
 # Create connection variable to localhost on port 27017
-conn = "mongodb://localhost:27017"
+# conn = "mongodb://localhost:27017"
+conn = "mongodb+srv://asl_p2_mdb:L0g1n2-mDB@cluster0.rz5i4.mongodb.net/earthquake"
 
 #################################################
 # Flask Routes

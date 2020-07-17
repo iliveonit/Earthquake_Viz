@@ -1,1 +1,1 @@
-web: gunicorn project2-earthquake-viz:app
+web: gunicorn p2-asl-earthquake-viz:app
